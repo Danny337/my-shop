@@ -19,7 +19,7 @@ class Navbar extends Component {
                 <ul className='navbar-nav align-items-center'>
                     <li className='nav-item ml-5'>
                         <Link to='/' className='nav-link'>
-                            products
+                            товары
                         </Link>
                     </li>
                 </ul>
@@ -28,7 +28,7 @@ class Navbar extends Component {
                         <span className='mr-2'>
                             <i className='fas fa-cart-plus' />
                         </span>
-                        my cart
+                        корзина
                     </ButtonContainer>
                 </Link>
             </NavWrapper>
