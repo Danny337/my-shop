@@ -23,27 +23,27 @@ class Details extends Component {
                                     <img src={img} className='img-fluid' alt='product'/>
                                 </div>
                                 <div className='col-10 mx-auto col-md-6 text-capitalize my-3'>
-                                    <h2>model: {title}</h2>
+                                    <h2>модель: {title}</h2>
                                     <h4 className='text-title text-uppercase text-muted mt-3 mb-2'>
-                                        made by: <span className='text-uppercase'>
+                                        сделан в: <span className='text-uppercase'>
                                             {company}
                                         </span>
                                     </h4>
                                     <h4 className='text-blue'>
                                         <strong>
-                                            price: <span>$</span>
+                                            цена: <span>₽</span>
                                             {price}
                                         </strong>
                                     </h4>
                                     <p className='text-capitalize font-weight-bold mt-3 mb-0'>
-                                        some info about product:
+                                        немного информации о данном телефоне:
                                     </p>
                                     <p className='text-muted lead'>{info}</p>
                                     {/* buttons */}
                                     <div>
                                         <Link to='/'>
                                             <ButtonContainer>
-                                                back to products
+                                                вернуться к товарам
                                             </ButtonContainer>
                                         </Link>
                                         <ButtonContainer
