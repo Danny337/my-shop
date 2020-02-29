@@ -54,7 +54,7 @@ class Details extends Component {
                                             value.openModal(id);
                                         }}
                                         >
-                                            {inCart?'inCart':'add to cart'}
+                                            {inCart?'inCart':'добавить в корзину'}
                                         </ButtonContainer>
                                     </div>
                                 </div>
