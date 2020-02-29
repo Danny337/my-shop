@@ -37,7 +37,7 @@ function CartItem({item,value}) {
                 </div>
             </div>
             <div className='col-10 mx-auto col-lg-2'>
-                <strong>цена телефона : $ {total}</strong>
+                <strong>цена телефона : ₽ {total}</strong>
             </div>
 
         </div>
