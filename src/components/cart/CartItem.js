@@ -12,11 +12,11 @@ function CartItem({item,value}) {
                 className='img-fluid' alt='product' />
             </div>
             <div className='col-10 mx-auto col-lg-2'>
-                <span className='d-lg-none'>product : </span>
+                <span className='d-lg-none'>телефон : </span>
                 {title}
             </div>
             <div className='col-10 mx-auto col-lg-2'>
-                <span className='d-lg-none'>price : </span>
+                <span className='d-lg-none'>цена : </span>
                 {price}
             </div>
             <div className='col-10 mx-auto col-lg-2 my-2 my-lg-0'>
@@ -37,7 +37,7 @@ function CartItem({item,value}) {
                 </div>
             </div>
             <div className='col-10 mx-auto col-lg-2'>
-                <strong>item total : $ {total}</strong>
+                <strong>цена телефона : $ {total}</strong>
             </div>
 
         </div>

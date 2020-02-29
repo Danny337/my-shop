@@ -13,19 +13,19 @@ export default function CartTotals({value,history}) {
                             <button className='btn btn-outline-danger text-uppercase mb-3 px-5'
                             type='button'
                             onClick={() => clearCart()}>
-                            clear cart</button>
+                            очистить корзину</button>
                         </Link>
                         <h5>
-                            <span className="text-title">subtotal :</span>
-                            <strong>$ {cartSubTotal}</strong>
+                            <span className="text-title">промежуточный итог :</span>
+                            <strong>₽ {cartSubTotal}</strong>
                         </h5>
                         <h5>
-                            <span className="text-title">tax :</span>
-                            <strong>$ {cartTax}</strong>
+                            <span className="text-title">налог :</span>
+                            <strong>₽ {cartTax}</strong>
                         </h5>
                         <h5>
-                            <span className="text-title">total :</span>
-                            <strong>$ {cartTotal}</strong>
+                            <span className="text-title">итого :</span>
+                            <strong>₽ {cartTotal}</strong>
                         </h5>
                         <PayPalButton total={cartTotal} clearCart={clearCart} history={history}> </PayPalButton>
                     </div>
