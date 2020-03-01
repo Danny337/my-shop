@@ -61,7 +61,7 @@ export const storeProducts = [
   },
   {
     id: 6,
-    title: "Vintage Iphone",
+    title: "Винтажный Iphone 3g",
     img: "img/product-6.png",
     price: 10000,
     company: "apple",
@@ -85,7 +85,7 @@ export const storeProducts = [
   },
   {
     id: 8,
-    title: "Smashed Iphone",
+    title: "Сломанный Iphone",
     img: "img/product-8.png",
     price: 2000,
     company: "apple",
