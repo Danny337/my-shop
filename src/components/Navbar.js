@@ -42,6 +42,9 @@ const NavWrapper = styled.nav`
         color: var(--mainWhite) !important;
         font-size: 1.3rem;
         text-transform: capitalize;}
+    .nav-link:hover {
+        color: var(--mainYellow) !important;
+    }
 `;
 
 
